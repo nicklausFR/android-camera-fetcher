@@ -1,0 +1,10 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# PyInstaller output
+build/
+dist/
+
+# Local build destination remembered by build_exe.py
+build_exe_config.json

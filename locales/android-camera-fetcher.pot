@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: android-camera-fetcher\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "A period"
+msgstr ""
+
+msgid "ADB device:"
+msgstr ""
+
+msgid "ADB diagnostics"
+msgstr ""
+
+msgid "ADB transport:"
+msgstr ""
+
+msgid "All photos and videos"
+msgstr ""
+
+msgid "Android Camera Fetcher — looking for a phone"
+msgstr ""
+
+msgid "Android Camera Fetcher — phone unavailable"
+msgstr ""
+
+msgid "Android Camera Fetcher — preparing synchronization…"
+msgstr ""
+
+msgid "Android Camera Fetcher — synchronization"
+msgstr ""
+
+msgid "Android Camera Fetcher — synchronizing from {device}"
+msgstr ""
+
+msgid "Android Camera Fetcher — {model} available via {transport}"
+msgstr ""
+
+msgid "Automatic (USB preferred)"
+msgstr ""
+
+msgid "Automatically choose"
+msgstr ""
+
+msgid "Browse…"
+msgstr ""
+
+msgid "Check now"
+msgstr ""
+
+msgid "Check phone presence every:"
+msgstr ""
+
+msgid "Checking ADB…"
+msgstr ""
+
+msgid "Checking files already present…"
+msgstr ""
+
+msgid "Choose a date"
+msgstr ""
+
+msgid "Choose a date."
+msgstr ""
+
+msgid "Choose all files, one date, or a period."
+msgstr ""
+
+msgid "Choose both dates for the period."
+msgstr ""
+
+msgid "Choose photos, videos, or both."
+msgstr ""
+
+msgid "Connection"
+msgstr ""
+
+msgid "Copying {index}/{total} — {name}"
+msgstr ""
+
+msgid "Date:"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "File types"
+msgstr ""
+
+msgid "From:"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Language:"
+msgstr ""
+
+msgid "One date"
+msgstr ""
+
+msgid "One-off download"
+msgstr ""
+
+msgid "One-off download folder"
+msgstr ""
+
+msgid "One-off download…"
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Options…"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Photos"
+msgstr ""
+
+msgid "Preparing synchronization…"
+msgstr ""
+
+msgid "Preparing…"
+msgstr ""
+
+msgid "Quit"
+msgstr ""
+
+msgid "Reading media from {device}…"
+msgstr ""
+
+msgid "Refresh ADB device list"
+msgstr ""
+
+msgid "Selection"
+msgstr ""
+
+msgid "Sync OK"
+msgstr ""
+
+msgid "Synchronization"
+msgstr ""
+
+msgid "Synchronization complete"
+msgstr ""
+
+msgid "Synchronization folder"
+msgstr ""
+
+msgid "Synchronization folder:"
+msgstr ""
+
+msgid "Synchronization interrupted"
+msgstr ""
+
+msgid "Synchronization interrupted: {message}"
+msgstr ""
+
+msgid "Synchronization started from {device}."
+msgstr ""
+
+msgid "Synchronize all now"
+msgstr ""
+
+msgid "The application is already running."
+msgstr ""
+
+msgid "The language will change when the application is restarted."
+msgstr ""
+
+msgid "To:"
+msgstr ""
+
+msgid "USB only"
+msgstr ""
+
+msgid "Use:"
+msgstr ""
+
+msgid "Videos"
+msgstr ""
+
+msgid "Wi-Fi only"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "{model} is available via {transport}. Click here to synchronize."
+msgstr ""
+
+msgid "{model} is connected via {transport}. Synchronize now?"
+msgstr ""

@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: android-camera-fetcher\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Phone"
+msgstr "Téléphone"
+
+msgid "Checking ADB…"
+msgstr "Vérification d’ADB…"
+
+msgid "seconds"
+msgstr "s"
+
+msgid "Check phone presence every:"
+msgstr "Vérifier la présence toutes les :"
+
+msgid "Automatic (USB preferred)"
+msgstr "Automatique (USB prioritaire)"
+
+msgid "USB only"
+msgstr "USB uniquement"
+
+msgid "Wi-Fi only"
+msgstr "Wi-Fi uniquement"
+
+msgid "ADB transport:"
+msgstr "Transport ADB :"
+
+msgid "ADB device:"
+msgstr "Téléphone ADB :"
+
+msgid "ADB diagnostics"
+msgstr "Diagnostic ADB"
+
+msgid "Synchronization"
+msgstr "Synchronisation"
+
+msgid "Browse…"
+msgstr "Parcourir…"
+
+msgid "Synchronization folder:"
+msgstr "Dossier de synchronisation :"
+
+msgid "Language:"
+msgstr "Langue :"
+
+msgid "Synchronization folder"
+msgstr "Dossier de synchronisation"
+
+msgid "Automatically choose"
+msgstr "Choisir automatiquement"
+
+msgid "Refresh ADB device list"
+msgstr "Actualiser la liste ADB"
+
+msgid "One-off download"
+msgstr "Téléchargement ponctuel"
+
+msgid "Connection"
+msgstr "Connexion"
+
+msgid "Use:"
+msgstr "Utiliser :"
+
+msgid "Selection"
+msgstr "Sélection"
+
+msgid "All photos and videos"
+msgstr "Toutes les photos et vidéos"
+
+msgid "One date"
+msgstr "Une date"
+
+msgid "A period"
+msgstr "Une période"
+
+msgid "Date:"
+msgstr "Date :"
+
+msgid "From:"
+msgstr "Du :"
+
+msgid "To:"
+msgstr "Au :"
+
+msgid "File types"
+msgstr "Types de fichiers"
+
+msgid "Photos"
+msgstr "Photos"
+
+msgid "Videos"
+msgstr "Vidéos"
+
+msgid "Download"
+msgstr "Télécharger"
+
+msgid "Choose a date"
+msgstr "Choisir une date"
+
+msgid "Choose all files, one date, or a period."
+msgstr "Choisis Toutes, une date ou une période."
+
+msgid "Choose photos, videos, or both."
+msgstr "Choisis les photos, les vidéos, ou les deux."
+
+msgid "Choose a date."
+msgstr "Choisis une date."
+
+msgid "Choose both dates for the period."
+msgstr "Choisis les deux dates de la période."
+
+msgid "One-off download folder"
+msgstr "Dossier du téléchargement ponctuel"
+
+msgid "Android Camera Fetcher — synchronization"
+msgstr "Android Camera Fetcher — synchronisation"
+
+msgid "Preparing…"
+msgstr "Préparation…"
+
+msgid "Hide"
+msgstr "Masquer"
+
+msgid "Reading media from {device}…"
+msgstr "Lecture des médias depuis {device}…"
+
+msgid "Copying {index}/{total} — {name}"
+msgstr "Copie {index}/{total} — {name}"
+
+msgid "Android Camera Fetcher — looking for a phone"
+msgstr "Android Camera Fetcher — recherche d’un téléphone"
+
+msgid "Open"
+msgstr "Ouvrir"
+
+msgid "Synchronize all now"
+msgstr "Synchroniser tout maintenant"
+
+msgid "One-off download…"
+msgstr "Téléchargement ponctuel…"
+
+msgid "Check now"
+msgstr "Vérifier maintenant"
+
+msgid "Options…"
+msgstr "Options…"
+
+msgid "Quit"
+msgstr "Quitter"
+
+msgid "Android Camera Fetcher — {model} available via {transport}"
+msgstr "Android Camera Fetcher — {model} disponible via {transport}"
+
+msgid "{model} is available via {transport}. Click here to synchronize."
+msgstr "{model} est disponible via {transport}. Clique ici pour synchroniser."
+
+msgid "{model} is connected via {transport}. Synchronize now?"
+msgstr "{model} est connecté via {transport}. Synchroniser maintenant ?"
+
+msgid "Android Camera Fetcher — phone unavailable"
+msgstr "Android Camera Fetcher — téléphone absent"
+
+msgid "Checking files already present…"
+msgstr "Vérification des fichiers déjà présents…"
+
+msgid "Android Camera Fetcher — preparing synchronization…"
+msgstr "Android Camera Fetcher — préparation de la synchronisation…"
+
+msgid "Preparing synchronization…"
+msgstr "Préparation de la synchronisation…"
+
+msgid "Android Camera Fetcher — synchronizing from {device}"
+msgstr "Android Camera Fetcher — synchronisation depuis {device}"
+
+msgid "Synchronization started from {device}."
+msgstr "Synchronisation commencée depuis {device}."
+
+msgid "Sync OK"
+msgstr "Sync OK"
+
+msgid "Synchronization complete"
+msgstr "Synchronisation terminée"
+
+msgid "Synchronization interrupted: {message}"
+msgstr "Synchronisation interrompue : {message}"
+
+msgid "Synchronization interrupted"
+msgstr "Synchronisation interrompue"
+
+msgid "Language"
+msgstr "Langue"
+
+msgid "The language will change when the application is restarted."
+msgstr "La langue changera au redémarrage de l’application."
+
+msgid "The application is already running."
+msgstr "L’application est déjà en cours."
+
