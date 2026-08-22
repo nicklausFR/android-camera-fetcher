@@ -3,6 +3,7 @@ from __future__ import annotations
 import os
 import re
 import shlex
+import shutil
 import subprocess
 import threading
 import time
@@ -11,8 +12,43 @@ from dataclasses import dataclass
 from datetime import date, datetime, time as datetime_time, timedelta
 from pathlib import Path
 
-ADB = "adb"
 CREATE_NO_WINDOW = 0x08000000 if os.name == "nt" else 0
+
+
+def find_adb() -> str:
+    """Return ADB from PATH or from the usual local Android SDK folders."""
+    executable = "adb.exe" if os.name == "nt" else "adb"
+    from_path = shutil.which(executable)
+    if from_path:
+        return from_path
+
+    sdk_roots = [
+        os.environ.get("ANDROID_SDK_ROOT"),
+        os.environ.get("ANDROID_HOME"),
+    ]
+    if os.name == "nt":
+        local_app_data = os.environ.get("LOCALAPPDATA")
+        user_profile = os.environ.get("USERPROFILE")
+        if local_app_data:
+            sdk_roots.append(str(Path(local_app_data) / "Android" / "Sdk"))
+        if user_profile:
+            sdk_roots.append(
+                str(Path(user_profile) / "AppData" / "Local" / "Android" / "Sdk")
+            )
+
+    for sdk_root in sdk_roots:
+        if not sdk_root:
+            continue
+        candidate = Path(sdk_root).expanduser() / "platform-tools" / executable
+        if candidate.is_file():
+            return str(candidate)
+
+    # Keep the conventional command so subprocess produces the expected
+    # FileNotFoundError and the existing user-facing diagnostic remains useful.
+    return executable
+
+
+ADB = find_adb()
 
 
 @dataclass(frozen=True)
